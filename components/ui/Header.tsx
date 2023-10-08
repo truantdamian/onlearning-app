@@ -15,10 +15,14 @@ export const Header = () => {
       <nav>
         <ul className="flex flex-row gap-3">
           <li>
-            <Link href="/sign-in">ingresar</Link>
+            <Link className="underline text-cyan-700" href="/sign-in">
+              Ingresar
+            </Link>
           </li>
           <li>
-            <Link href="/sign-up">registrarse</Link>
+            <Link className="underline text-cyan-700" href="/sign-up">
+              Registrarse
+            </Link>
           </li>
         </ul>
       </nav>
